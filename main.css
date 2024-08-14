@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+section h1, h2 {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input, textarea, button {
+    display: flex;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+.form button {
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+#yep, #nop, #equals {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#yep {
+    display: none;
+    background-color: green;
+    color: white;
+}
+
+#nop {
+    display: none;
+    background-color: darkred;
+    color: white;
+}
+
+#equals {
+    display: none;
+    background-color: darkblue;
+    color: white;
+}

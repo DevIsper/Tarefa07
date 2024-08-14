@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Comparator</title>
+    <link rel="stylesheet" href="main.css">
+
+
+<!--Fontes personalizadas-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+
+<!--Fontes personalizadas-->
+</head>
+<body>
+
+<section class="container">
+
+    <h1>Numero comparator</h1>
+    <h2>Digite os números que deseja comparar:</h2>
+
+    <div class="div-form">
+
+        <form class="form">
+            <input type="number" placeholder="Digite a variável A: " id="i1">
+            <input type="number" placeholder="Digite a variável B: " id="i2">
+            <button type="submit" id="btn">Enviar</button>
+        </form>
+
+        <p id="yep" class="new-amsterdam-regular">O número do campo B é maior que o do campo A.</p>
+        <p id="nop" class="new-amsterdam-regular">O número do campo A é maior que o do campo B.</p>
+        <p id="equals" class="new-amsterdam-regular">O número do campo A é igual ao do campo B.</p>
+    </div>
+
+
+</section>
+
+
+<script src="main.js"></script>
+</body>
+</html>
