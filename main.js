@@ -7,15 +7,15 @@ form.addEventListener('submit', (e) => {
     let A = document.getElementById("i1").value;
     let B = document.getElementById("i2").value;
 
-    if (retornaInteger(A, B) === 0) {
-        return respostaYep();
-    }
 
-    if (retornaInteger(A, B) === 1) {
-        return respostaNope();
+    switch (retornaInteger(A,  B)) {
+        case 1:
+            return respostaYep();
+        case 2:
+            return respostaNope();
+        case 3:
+            return respostaEquals();
     }
-
-    return respostaEquals();
 })
 
 function retornaInteger(A, B) {
