@@ -9,11 +9,11 @@ form.addEventListener('submit', (e) => {
 
 
     switch (retornaInteger(A,  B)) {
-        case 1:
+        case 0:
             return respostaYep();
-        case 2:
+        case 1:
             return respostaNope();
-        case 3:
+        case 2:
             return respostaEquals();
     }
 })
